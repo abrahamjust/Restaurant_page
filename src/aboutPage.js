@@ -2,7 +2,7 @@ export { aboutFunction }
 
 const aboutH2Content = "About Us";
 const aboutParaContent = `<em>The Spork</em> is where comfort food meets creative flair. 
-                    Since 2022, we've served a bold fusion of global street flavors and home-style classics — all crafted with fresh, locally sourced ingredients. 
+                    Since 2025, we've served a bold fusion of global street flavors and home-style classics — all crafted with fresh, locally sourced ingredients. 
                     Quirky, casual, and always delicious, our space is perfect for quick bites, chill brunches, or spontaneous food adventures.`;
 const aboutPara2Content = `Come hungry, leave happy — that's the Spork way.`;
 
