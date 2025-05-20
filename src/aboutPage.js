@@ -19,16 +19,16 @@ function aboutFunction() {
     const aboutH2 = document.createElement("h2");
     aboutH2.textContent = aboutH2Content;
     const aboutPara = document.createElement("p");
-    aboutPara.textContent = aboutParaContent;
+    aboutPara.innerHTML = aboutParaContent;
     const aboutPara2 = document.createElement("p");
-    aboutPara2.textContent = aboutPara2Content;
+    aboutPara2.innerHTML = aboutPara2Content;
 
     aboutDiv.append(aboutH2, aboutPara, aboutPara2);
 
     const contactH2 = document.createElement("h2");
     contactH2.textContent = contactH2Content;
     const contactPara = document.createElement("p");
-    contactPara.textContent = contactParaContent;
+    contactPara.innerHTML = contactParaContent;
 
     aboutDiv.append(contactH2, contactPara);
 
