@@ -16,11 +16,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
+    background-color: #f4efe3;
 }
 
 header > div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
+}
+
+.logo {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 nav {
@@ -38,7 +47,7 @@ nav > button {
     border-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
-    background-color: white;
+    background-color: #f4efe3;
 }
 
 #background {
