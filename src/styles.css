@@ -47,6 +47,7 @@ nav > button {
 }
 
 footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -57,4 +58,26 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#content {
+    box-sizing: border-box;
+    height: 500px;
+    width: 100%;
+    gap: 50px;
+    padding: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home {
+    background-color: #373d37;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 5px;
 }
