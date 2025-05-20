@@ -67,9 +67,6 @@ footer {
     gap: 50px;
     padding: 50px;
     position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 .home {
