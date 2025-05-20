@@ -64,11 +64,11 @@ footer {
     box-sizing: border-box;
     height: 500px;
     width: 100%;
-    gap: 50px;
+    gap: 100px;
     padding: 50px;
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .home {
@@ -93,4 +93,18 @@ footer {
     height: 450px;
     padding: 15px;
     border-radius: 5px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #373d37;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+    width: 700px;
+    height: 450px;
 }
