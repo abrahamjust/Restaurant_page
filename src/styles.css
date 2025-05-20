@@ -67,6 +67,8 @@ footer {
     gap: 50px;
     padding: 50px;
     position: absolute;
+    display: flex;
+    justify-content: space-between;
 }
 
 .home {
@@ -75,6 +77,20 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 400px;
     height: 350px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.special, .drinks, .vegan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #373d37;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    height: 450px;
     padding: 15px;
     border-radius: 5px;
 }

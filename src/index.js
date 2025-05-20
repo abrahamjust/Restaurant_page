@@ -1,6 +1,7 @@
 import "./styles.css";
 import backgroundImg from "./assets/restaurant_background.jpg";
-import { homeDiv } from "./homePage.js";
+//import { homeFunction } from "./homePage.js";
+//import { menuFunction } from "./menuPage.js";
 
 console.log("hello, world");
 
@@ -10,4 +11,5 @@ image.alt = "Background Image";
 image.id = "background";
 document.body.appendChild(image);
 
-document.getElementById("content").appendChild(homeDiv);
+//menuFunction();
+//homeFunction();
