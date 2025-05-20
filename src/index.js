@@ -1,0 +1,10 @@
+import "./styles.css";
+import backgroundImg from "./assets/restaurant_background.jpg";
+
+console.log("hello, world");
+
+const image = document.createElement("img");
+image.src = backgroundImg;
+image.alt = "Background Image";
+image.id = "background";
+document.body.appendChild(image);

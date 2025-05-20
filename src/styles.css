@@ -1,0 +1,60 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    min-height: auto;
+    overflow: hidden;
+}
+
+body > img {
+    /*image is an inline element so it will have some whitespace. To remove that change it to a block element*/
+    display: block;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+header > div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+nav {
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+nav > button {
+    height: 40px;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+#background {
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #373d37;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
